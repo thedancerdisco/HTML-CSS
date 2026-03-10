@@ -1,0 +1,24 @@
+body{
+    background-color:gray;
+}
+.films{
+    display: flex;
+    gap:20px;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+    align-content: stretch;
+}
+.card{
+    flex:1 1 250px;
+    background-color: whitesmoke;
+    border-radius:20px;
+    padding: 20px;
+    box-shadow: inset 0 0 50px 5px gold;
+    text-align: center;
+    }
+.card:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 30px gold;
+    transform: scale(1.01) rotate(2deg);
+}
